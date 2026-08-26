@@ -19,6 +19,13 @@ const config: Config = {
       fontFamily: {
         sans: ["var(--font-geist-sans)", "Inter", "sans-serif"],
       },
+      boxShadow: {
+        card: "0 10px 40px -16px rgba(20, 86, 168, 0.25)",
+        nav: "0 8px 30px -18px rgba(15, 31, 61, 0.35)",
+      },
+      backgroundImage: {
+        "brand-mix": "linear-gradient(90deg, #1a6fd4 0%, #3a9a3a 100%)",
+      },
     },
   },
   plugins: [],
